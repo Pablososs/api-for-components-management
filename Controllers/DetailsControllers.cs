@@ -64,11 +64,9 @@ namespace DAPI.Controllers
                     return result;
                 }
 
-                String sql = "INSERT INTO Details (Parameter, Description, Value, DateEntry, Note, FK, GreenLimit, YellowLimit )" +
+
+                mySqlCommandInsertDetail.CommandText = "INSERT INTO Details (Parameter, Description, Value, DateEntry, Note, FK, GreenLimit, YellowLimit )" +
                     "VALUES(@Parameter, @Description, @Value, @DateEntry, @Note, @FK, @GreenLimit, @YellowLimit)";
-
-
-                mySqlCommandInsertDetail.CommandText = sql;
                 mySqlCommandInsertDetail.ExecuteNonQuery();
 
                 result = "Entered Correctly";
