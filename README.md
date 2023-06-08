@@ -27,3 +27,9 @@ The API are all coded in C# with .NET Framework, I have also used Swagger to tes
 I wanted to especially thank the company that gave me an opportunity to try my hand on this type of work, and also a special thanks to [LucaGiovannini02](https://github.com/LucaGiovannini02) that worked on the front-end side, so please go and check out his work. 
 * [Luca's first linked project](https://github.com/LucaGiovannini02/components-details) 
 * [Luca's second linked project](https://github.com/LucaGiovannini02/details-by-a-photo)
+
+
+## Technologies used
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png" width="80">  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968364.png" width="70">  
+
+
